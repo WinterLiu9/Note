@@ -14,6 +14,7 @@ Java线程内存模型确保所有线程看到这个变量的值是一致的。
 ## synchronized的实现原理与应用
 * **实现的基础**
 Java中的每一个对象都可以作为锁。
+  
     1. 对于普通同步方法，锁是当前实例对象。
     2. 对于静态同步方法，锁是当前类的Class对象。
     3. 对于同步方法块，锁是Synchronized括号里配置的对象。
@@ -81,11 +82,11 @@ javac为其生成了一个ACC_SYNCHRONIZED关键字，在JVM进行方法调用�
     ***
 * **轻量级锁**
     * **为什么引入轻量级锁？**
-        在Java程序运行时，同步块中的代码都是不存在竞争的，不同的线程交替的执行同步块中的代码。这种情况下，用重量级锁是没必要的。因此JVM引入了轻量级锁的概念。
+        在 Java 程序运行时，同步块中的代码都是不存在竞争的，不同的线程交替的执行同步块中的代码。这种情况下，用重量级锁是没必要的。因此 JVM 引入了轻量级锁的概念。
 
-
-线程在执行同步块之前，JVM会先在当前的线程的栈帧中创建一个Lock Record，其包括一个用于存储对象头中的 mark word（官方称之为Displaced Mark Word）以及一个指向对象的指针。下图右边的部分就是一个Lock Record。
+线程在执行同步块之前，JVM 会先在当前的线程的栈帧中创建一个 Lock Record，其包括一个用于存储对象头中的  mark word（官方称之为 Displaced Mark Word）以及一个指向对象的指针。下图右边的部分就是一个 Lock Record 。
 ![264fe515ed540d7f2038e094cac4f076.png](en-resource://database/1152:1)
+
 * **加锁过程**
 ![a0496469cadecf59e405ae4615d9f1ec.png](en-resource://database/1160:1)
 ![f6fd1be7c49b1f03f2ebb2f2b2c51d84.png](en-resource://database/1162:1)
