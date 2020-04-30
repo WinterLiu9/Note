@@ -1,6 +1,6 @@
 java.util.Map 的实现类主要有四个常用的：HashMap、Hashtable、LinkedHashMap和TreeMap
 
-(1) HashMap：**遍历顺序不确定**， HashMap最多只**允许一条记录的****键为null**。HashMap非线程安全。
+(1) HashMap：**遍历顺序不确定**， HashMap最多只**允许一条记录的**键为null。HashMap非线程安全。
 
 (2) Hashtable：**线程安全的**(sync)，Hashtable不建议在新代码中使用，不需要线程安全的场合可以用HashMap替换，需要线程安全的场合可以用ConcurrentHashMap替换。
 

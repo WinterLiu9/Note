@@ -101,7 +101,7 @@ MySQL的索引是在存储引擎层实现的
 
 ###  使用索引扫描来排序
 
-EXPLAIN 出来的列的 type 列的值为 “index” ，则说明MySQL使用了索引扫描来做排序。
+EXPLAIN 出来的列的 type 列的值为 “index” ，则说明 MySQL 使用了索引扫描来做排序。
 
 MySQL使用索引来对结果做排序的一些限制：
 

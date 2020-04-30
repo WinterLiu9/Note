@@ -8,7 +8,7 @@ Cookie 和 Session 保存会话状态，用 Session 来唯一标识用户，用 
     2. 在 HTTP 请求报文中的一个 cookie 首部行
     3. 在用户端系统中保留有一个 cookie 文件，并由用户的浏览器进行管理
     4. 位于 Web 站点的一个后端数据库
-![5418d7a3cd09088f7ad005a37e601d92.png](en-resource://database/1304:1)
+![](https://github.com/Wayne-98/image/blob/master/Internet/Cookie.png?raw=true)
 
 
 2. **session**(服务端)
@@ -33,6 +33,7 @@ token 也称作令牌，由 uid + time + sign[+固定参数]
 
 **区别和联系**
 session 存储于服务器，可以理解为一个状态列表，拥有一个唯一识别符号 sessionId，通常存放于 cookie 中。服务器收到 cookie 后解析出 sessionId ，再去 session 列表中查找，才能找到相应 session ，依赖cookie。cookie 类似一个令牌，装有 sessionId ，存储在客户端，浏览器通常会自动添加。token 也类似一个令牌，无状态，用户信息都被加密到 token 中，服务器收到 token 后解密就可知道是哪个用户。需要开发者手动添加。
+
 ***
 * **非持续性**连接和**持续性**连接
 每个请求/响应对是经一个单独的TCP连接发送，还是所有的请求及响应经相同的TCP连接发送呢？
@@ -45,7 +46,7 @@ session 存储于服务器，可以理解为一个状态列表，拥有一个唯
 * HTTP请求报文
 ```
 GET /somedir/page.html HTTP/1.1
-Host: www.someschool .edu
+Host: www.someschool.edu
 Connection: close
 User-agent: Mozilla/5.0     //浏览器类型
 Accept-language: fr         
