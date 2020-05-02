@@ -16,7 +16,7 @@
 3. 如果无法将任务加入BlockingQueue（队列已满），则创建新的线程来处理任务（注意，执行这一步骤需要获取全局锁）。
 4. 如果创建新线程将使当前运行的线程超出maximumPoolSize，任务将被拒绝，并调用RejectedExecutionHandler.rejectedExecution()方法。
 
-![5648db12a8d970c8458136d773ae8152.png](en-resource://database/1289:1)
+![](https://github.com/Wayne-98/image/blob/master/Java%20Concurrent/ThreadPollExecutor.png?raw=true)
 **总体设计思路**
 * 是为了在执行execute()方法时，尽可能地避免获取全局锁（那将会是一个严重的可伸缩瓶颈）
 * 在ThreadPoolExecutor完成预热之后（当前运行的线程数大于等于corePoolSize），几乎所有的execute()方法调用都是执行步骤2，而步骤2不需要获取全局锁。
