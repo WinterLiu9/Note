@@ -14,11 +14,11 @@
 
 # Distributed System
 
-[从  Paxos 到 Zookeeper 学习笔记](https://github.com/Wayne-98/Note/tree/master/Distributed System)
+[从  Paxos 到 Zookeeper 学习笔记](https://github.com/Wayne-98/Note/tree/master/Distributed%20System)
 
 # Git
 
-[Git 学习笔记](https://github.com/Wayne-98/Note/blob/master/Git/Git 学习笔记.md)
+[Git 学习笔记](https://github.com/Wayne-98/Note/blob/master/Git/Git%20学习笔记.md)
 
 #  Internet
 
@@ -30,15 +30,15 @@
 
 # Java Concurrent
 
-[Java 并发编程的艺术 学习笔记](https://github.com/Wayne-98/Note/tree/master/Java Concurrent)
+[Java 并发编程的艺术 学习笔记](https://github.com/Wayne-98/Note/tree/master/Java%20Concurrent)
 
 # Java 容器
 
-[HashMap](https://github.com/Wayne-98/Note/blob/master/Java 容器/HashMap.md)
+[HashMap](https://github.com/Wayne-98/Note/blob/master/Java%20容器/HashMap.md)
 
 # Operating System
 
-[操作系统复习](https://github.com/Wayne-98/Note/tree/master/Operating System)
+[操作系统复习](https://github.com/Wayne-98/Note/tree/master/Operating%20System)
 
 
 
