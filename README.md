@@ -10,7 +10,7 @@
 
 # Design Pattern
 
-[Head First 设计模式 学习笔记](https://github.com/Wayne-98/Note/tree/master/Design Pattern)
+[Head First 设计模式 学习笔记](https://github.com/Wayne-98/Note/tree/master/Design%20Pattern)
 
 # Distributed System
 
