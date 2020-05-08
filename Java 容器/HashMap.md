@@ -150,7 +150,7 @@ static int indexFor(int h, int length) {  //jdk1.7的源码，jdk1.8没有这个
 
 ### HashMap 线程不安全
 
-并发的多线程使用场景中使用HashMap可能造成死循环。
+并发的多线程使用场景中使用HashMap可能造成死循环。主要是多线程同时put时，如果同时触发了rehash操作，会导致HashMap中的链表中出现循环节点，进而使得后面get的时候，会死循环。
 
 ```Java
 public class HashMapInfiniteLoop {  
