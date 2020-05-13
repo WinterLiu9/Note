@@ -1,3 +1,9 @@
+---
+title: HTTP
+date: {date}
+tags: 计算机网络
+categories: 计算机网络
+---
 * **无状态协议**
   HTTP服务器并不保存关于客户的任何信息，所以我们说 HTTP 是一个无状态协议（stateless protocol）
 

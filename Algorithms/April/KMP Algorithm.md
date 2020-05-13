@@ -1,3 +1,9 @@
+---
+title: KMP Algorithm
+date: {date}
+tags: Algorithms
+categories: Algorithms
+---
 字符串的前缀：除最后一个字符以外，字符串的所有头部子串。
 
 字符串的后缀：除第一个字符以外，字符串的所有尾部子串。

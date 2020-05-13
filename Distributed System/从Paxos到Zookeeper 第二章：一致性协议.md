@@ -1,3 +1,9 @@
+---
+title: 从Paxos到Zookeeper 第二章：一致性协议
+date: {date}
+tags: Distributed System
+categories: 从Paxos到Zookeeper
+---
 在分布式系统中，每一个机器节点能够明确知道自己在进行事务操作中的结果的成败，但是无法直接获取到其他分布式节点的操作结果。因此，但一个事务操作需要跨越多个分布式节点的时候，为了保持事务处理的 ACID 的特性，就需要引入一个称为“协调者”（Coordinator）的组件来统一调度所有分布式节点的执行逻辑，这些被调度的节点被称为“参与者”（Participant）。协调者负责调度参与者的行为，并最终决定参与者是否要把事务真正进行提交。基于这个思想，衍生了二阶段提交和三阶段提交两种协议。
 
 ## 2PC(Two-Phase Commit)

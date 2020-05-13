@@ -1,3 +1,9 @@
+---
+title: AQS
+date: {date}
+tags: Java
+categories: Java Concurrent
+---
 [AQS](https://segmentfault.com/a/1190000017372067)
 
 AbstractQueuedSynchronizer

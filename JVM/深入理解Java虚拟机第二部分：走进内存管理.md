@@ -1,3 +1,9 @@
+---
+title: 深入理解Java虚拟机第二部分：走进内存管理
+date: {date}
+tags: Java
+categories: JVM
+---
 # Java内存区域与内存溢出异常
 
 ## 运行时数据区域

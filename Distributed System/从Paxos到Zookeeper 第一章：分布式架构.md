@@ -1,3 +1,9 @@
+---
+title: 从Paxos到Zookeeper 第一章：分布式架构
+date: {date}
+tags: Distributed System
+categories: 从Paxos到Zookeeper
+---
 # 第一章：分布式架构
 
 ## 从集中式到分布式

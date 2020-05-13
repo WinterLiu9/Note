@@ -1,3 +1,9 @@
+---
+title: Head First Desig Pattern
+date: {date}
+tags: Desig Pattern
+categories: Desig Pattern
+---
 # 设计模式入门
 
 **设计原则**：
@@ -9,13 +15,13 @@
 5. 类应该对扩展开放，对修改关闭。
 6. 要依赖抽象，不要依赖具体实现类。（依赖倒置原则）
 
-## 策略模式
+## [策略模式](https://github.com/Wayne-98/Note/tree/master/Design%20Pattern/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/Duck)
 
 策略模式定义了算法族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化独立于使用算法的客户。
 
 
 
-## 观察者模式
+## [观察者模式](https://github.com/Wayne-98/Note/tree/master/Design%20Pattern/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/Weather)
 
 观察者模式定义了对象之间的一对多依赖，这样一来，当一个对象改变状态时，它的所有的依赖者都会收到通知并自动更新。
 
@@ -27,7 +33,7 @@
 
 观察者模式提供了一种对象设计，让主题和观察者之间松耦合。
 
-## 装饰者模式
+## [装饰者模式](https://github.com/Wayne-98/Note/tree/master/Design%20Pattern/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F/Beverage)
 
 装饰者模式动态地将责任附加到对象上。若要扩展功能，装饰者提供了比继承更有弹性的替代方案。
 
@@ -43,7 +49,7 @@
 
 对象可以在任何时候被装饰，所以在运行时动态地、不限量地用你喜欢的装饰者来装饰对象
 
-## 工厂模式
+## [工厂模式](https://github.com/Wayne-98/Note/tree/master/Design%20Pattern/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/Pizza)
 
 所有**工厂模式**都用来封装对象的创建。工厂方法模式通过让子类决定该创建的对象是什么，来达到将对象创建的过程封装的目的。
 

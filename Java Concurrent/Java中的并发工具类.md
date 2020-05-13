@@ -1,3 +1,9 @@
+---
+title: Java中的并发工具类
+date: {date}
+tags: Java
+categories: Java Concurrent
+---
 ## 等待多线程完成的CountDownLatch
 > [CountDownLatch理解一：与join的区别](https://blog.csdn.net/zhutulang/article/details/48504487)
 

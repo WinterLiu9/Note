@@ -1,3 +1,9 @@
+---
+title: HashMap
+date: {date}
+tags: Java
+categories: Java 容器
+---
 java.util.Map 的实现类主要有四个常用的：HashMap、Hashtable、LinkedHashMap和TreeMap
 
 (1) HashMap：**遍历顺序不确定**， HashMap最多只**允许一条记录的**键为null。HashMap非线程安全。

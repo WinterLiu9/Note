@@ -1,7 +1,10 @@
 ---
-title: 查询性能优化
-date: 2020/04/25
+title: 高性能MySQL第六章：查询性能优化
+date: {date}
+tags: MySQL
+categories: 高性能MySQL
 ---
+
 
 ## 为什么查询速度会慢？
 

@@ -1,3 +1,9 @@
+---
+title: Java并发编程的艺术 第二章：Java并发机制的底层实现原理
+date: {date}
+tags: Java
+categories: Java Concurrent
+---
 # Java并发编程的艺术 第二章
 
 Java代码在编译后会变成Java字节码，字节码被类加载器加载到JVM里，JVM执行字节码，最终需要转化为汇编指令在CPU上执行，Java中所使用的并发机制依赖于**JVM的实现**和**CPU的指令**。

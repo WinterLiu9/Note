@@ -1,3 +1,9 @@
+---
+title: 从Paxos到Zookeeper 第四章：Zookeeper 与 Paxos
+date: {date}
+tags: Distributed System
+categories: 从Paxos到Zookeeper
+---
 ## Zookeeper基本概念
 
 Zookeeper 是一个典型的分布式数据一致性的解决方案，分布式应用程序可以基于它实现诸如数据发布/订阅，负载均衡，命名服务，分布式协调/通知，集群管理，Master 选举，分布式锁和分布式队列等功能。

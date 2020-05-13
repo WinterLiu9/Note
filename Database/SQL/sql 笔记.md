@@ -1,4 +1,9 @@
-
+---
+title: SQL 语句
+date: {date}
+tags: MySQL
+categories: SQL
+---
 
 ```sql
 # 获取 Employee 表中第 n 高的薪水（Salary）

@@ -1,3 +1,9 @@
+---
+title: Condition
+date: {date}
+tags: Java
+categories: Java Concurrent
+---
 # Condition接口与示例
 
 ```Java

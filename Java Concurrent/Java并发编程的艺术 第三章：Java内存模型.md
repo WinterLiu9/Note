@@ -1,3 +1,9 @@
+---
+title: Java并发编程的艺术 第三章：Java内存模型
+date: {date}
+tags: Java
+categories: Java Concurrent
+---
 # 3. Java内存模型
 
 Java线程之间的通信对程序员完全透明，内存可见性问题很容易困扰Java程序员。

@@ -1,3 +1,9 @@
+---
+title: Socket I/O
+date: {date}
+tags: I/O
+categories: I/O
+---
 One basic concept of Linux (actually Unix) is the rule that everything in Unix/Linux is a file. Each process has a table of file descriptors that point to files, sockets, devices and other operating system objects.
 	linux系统中，一切皆文件。，每一个进程都有一个FD表，指向了与该进程有关的文件，套接字，设备或者其他操作系统对象。
 Typical system that works with many IO sources has an initializaion phase and then enter some kind of standby mode – wait for any client to send request and response it

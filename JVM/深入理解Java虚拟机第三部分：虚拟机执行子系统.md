@@ -1,3 +1,9 @@
+---
+title: 深入理解Java虚拟机第三部分：虚拟机执行子系统
+date: {date}
+tags: Java
+categories: JVM
+---
 # 类文件结构
 
 ## 无关系的基石

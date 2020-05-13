@@ -1,3 +1,9 @@
+---
+title: DNS
+date: {date}
+tags: 计算机网络
+categories: 计算机网络
+---
 ## DNS
 域名系统(Domain Name System)能进行**主机名到IP地址转换**的目录服务。
 * DNS：

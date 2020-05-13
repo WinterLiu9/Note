@@ -1,3 +1,9 @@
+---
+title: 高性能MySQL第十一章：扩展
+date: {date}
+tags: MySQL
+categories: 高性能MySQL
+---
  # 向上扩展
 
 加强服务器性能
