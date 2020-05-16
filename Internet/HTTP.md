@@ -12,13 +12,13 @@ categories: 计算机网络
 
   session 有如用户信息档案表, 里面包含了用户的认证信息和登录状态等信息. 而 cookie 就是用户通行证。
 1. **cookie**(客户端)
-    
+   
     * cookie 的4个技术组件：
     1. 在 HTTP 响应报文中的一个 cookie 首部行
     2. 在 HTTP 请求报文中的一个 cookie 首部行
     3. 在用户端系统中保留有一个 cookie 文件，并由用户的浏览器进行管理
-4. 位于 Web 站点的一个后端数据库
-    ![](https://github.com/Wayne-98/image/blob/master/Internet/Cookie.png?raw=true)
+    4. 位于 Web 站点的一个后端数据库
+       ![](https://github.com/Wayne-98/image/blob/master/Internet/Cookie.png?raw=true)
 
 
 2. **session**(服务端)
