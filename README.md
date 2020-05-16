@@ -63,3 +63,17 @@
 * 高性能MySQL 再看一遍 5 6 章节
 * 美团文章 JVM 调优
 * 计算机网络 IP 数据链路 多播 数据控制层
+
+
+
+## 5.13 ~ 5.18 学习计划
+
+- 每天写 LeetCode，复习 200 英语单词
+- 牛客网项目跟着做
+- Head First Design Pattern
+- CSAPP 学习
+- Redis
+- Zookeeper
+- 高性能MySQL 再看一遍 5 6 章节
+- 美团文章读一篇
+- 计算机网络 SDN 数据链路层 多播 任播
